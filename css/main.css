@@ -337,6 +337,9 @@ ul{
     margin: 10px;
     cursor: pointer;
 }
+.burger-menu{
+    display: none;
+}
 
 @media (max-width: 768px){
     .discover{
@@ -505,8 +508,9 @@ ul{
         font-family: sans-serif;
         color: #000;
         margin: 0;
-        transform: translateY(-130%);
+        transform: translateY(-200%);
         transition: 0.6s;
+        display: block;
     }
 
     .burger-menu.active{
