@@ -157,7 +157,6 @@ hr{
     align-items: center;
     margin-top: 1rem;
     justify-content: space-between;
-    
 }
 
 .trending-box{
@@ -201,6 +200,7 @@ hr{
     max-width: 100%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
