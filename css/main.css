@@ -189,8 +189,56 @@ hr{
 }
 
 .happening-section{
-    width: 80%;
+    width: 90%;
     max-width: 95%;
     margin: 2rem auto;
     font-family: sans-serif;
+}
+
+.happening-container{
+    color: #fff;
+    font-family: sans-serif;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.city-river,.city-forrest{
+    width: 760px;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.city-river{
+    background-image: url('../Image/xidi.png');
+    margin-top: 2rem;
+}
+
+.city-forrest{
+    background-image: url("../Image/forest.png");
+    margin-top: 3rem;
+}
+
+
+.happen{
+    max-width: 90%;
+}
+.city-box{
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.large-title{
+    padding-top: 15rem;
+}
+.large-title h2,
+.large-title p{
+    padding-bottom: 0.7rem;
+}
+h5{
+    color: #000;
 }
