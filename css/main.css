@@ -250,6 +250,7 @@ h5{
 .footer{
     background-color: #A6ADB4;
     width: 100%;
+    max-width: 100%;
     margin-bottom: 0;
     color: #fff;
     font-family: sans-serif;
@@ -261,7 +262,7 @@ h5{
 }
 .footer-container_one{
     display: flex;
-    width: 50%;
+    
     max-width: 100%;
     justify-content: space-between;
 }
@@ -273,9 +274,8 @@ h5{
 .footer-box1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 600px;
-    max-width: 900px;
+    
+   
 }
 ul{
     list-style: none;
@@ -310,7 +310,7 @@ ul{
 .footer-container_two{
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    max-width: 100%;
     
 }
 
@@ -334,3 +334,81 @@ ul{
     margin: 10px;
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .discover{
+        display: block;
+    }
+
+    .more-news{
+        width: 768px;
+        max-width: 100%;
+    }
+    .article-title_container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .article-title{
+        width: 50%;
+        max-width: 100%;
+        
+    }
+
+    .article-title p{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .trending-section{
+        width: 100%;
+        max-width: 90%;
+    }
+    .trending-box_container{
+        flex-wrap: wrap;
+    }
+    .trending-box{
+        width: 300px;
+    }
+    .third{
+        display: none;
+    }
+    .happening-section{
+      width: 100%;
+      max-width: 95%
+    }
+    .happen-container_pictures{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+
+    .footer{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+    .footer-container_one{
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+    
+    .footer-container_two{
+        width: 100%;
+        max-width: 95%;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-icons{
+        display: flex;
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: )
