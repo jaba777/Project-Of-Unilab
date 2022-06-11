@@ -29,11 +29,17 @@ h1{
     display: flex;
     align-items: center;
     list-style: none;
+    
 }
 
 .header-menu li{
     padding: 0 0.7rem;
     cursor: pointer;
+}
+.header-img{
+    position: absolute;
+    top: 8px;
+    right: 15px;
 }
 .home{
     font-weight: bold;
@@ -201,12 +207,13 @@ hr{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
 
 .city-river,.city-forrest{
-    width: 760px;
+    max-width: 760px;
     height: 430px;
     background-position: center;
     background-size: cover;
@@ -224,9 +231,7 @@ hr{
 }
 
 
-.happen{
-    max-width: 90%;
-}
+
 .city-box{
     padding: 1rem 1.5rem;
     display: flex;
@@ -241,4 +246,91 @@ hr{
 }
 h5{
     color: #000;
+}
+.footer{
+    background-color: #A6ADB4;
+    width: 100%;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 5rem 10%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-container_one{
+    display: flex;
+    width: 50%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.footer h1{
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    max-width: 900px;
+}
+ul{
+    list-style: none;
+    margin-left: 5%;
+}
+.footer-box1 ul li{
+    margin-bottom: 5px;
+}
+
+.footer-box1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-box1 ul li a:hover{
+    color: #bbbaba;
+    text-decoration: underline;
+}
+
+.footer-box3 p{
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.input-box{
+    position: relative;
+    
+}
+
+.footer-container_two{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+
+.input-box input{
+    padding: 1rem 2rem;
+    border: none;
+    color: #fff;
+    background-color: #A6ADB4;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-box span{
+    position: absolute;
+    left: 12rem;
+    top: 0.9rem;
+    cursor: pointer;
+}
+.footer-icons span{
+    margin: 10px;
+    cursor: pointer;
 }
