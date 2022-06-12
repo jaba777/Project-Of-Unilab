@@ -1,0 +1,250 @@
+*{
+    font-family: sans-serif;
+}
+.story{
+    width: 80%;
+    max-width: 95%;
+    margin: 10rem auto;
+}
+
+#story-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.house{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.house p{
+   font-size: 12px;
+   font-weight: bold;
+   margin-left: 1rem;
+}
+
+.house .world a{
+    color: rgb(170, 169, 169);
+    text-decoration: none;
+}
+
+.house .world a:hover{
+    color: #000;
+}
+
+.arrow-left{
+    display: none;
+}
+
+.arrow-left a{
+    color: #000;
+}
+
+
+.news-of_world{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.worls-news_image{
+    width: 580px;
+    max-width: 100%;
+    height: 558px;
+    background-image: url("../Image/desert.png");
+    overflow: hidden;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+}
+
+.worls-news_image h2{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.line{
+    background-color: #FA6980;
+    height: 3px;
+    width: 10%;
+    z-index: 2;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.worls-news_image p{
+    margin-bottom: 4rem;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-boxes{
+    width: 580px;
+    max-width: 100%;
+    padding: 2rem 3rem;
+    
+}
+
+form{
+    max-width: 100%;
+}
+
+form label{
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    margin-top: 2rem;
+}
+
+form select{
+    width: 80%;
+    display: block;
+    padding: 0.5rem;
+    border: none;
+    color: #ccc;
+    outline: none;
+    margin-bottom: 5rem;
+}
+
+form input{
+    width: 80%;
+    display: block;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.input-Button{
+    border: none;
+    background-color: #FA6980;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0.7rem 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Phasellus{
+    width: 85%;
+    max-width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    
+    align-items: center;
+   
+}
+
+.box-of_Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    max-width: 300px;
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+
+
+.box span{
+    display: block;
+    margin-top: 1rem;
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    max-width: 90%;
+}
+
+.box-of_Container .box{
+    margin: 1rem;
+
+}
+
+.box p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 2rem;
+    color: #000;
+}
+
+.elephant-section{
+    width: 80%;
+    margin: 2rem auto;
+    max-width: 95%;
+}
+
+.image-El{
+    width: 100%;
+}
+.image-El img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text{
+    width: 60%;
+    max-width: 100%;
+    color: rgb(185, 185, 185);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.text p{
+    margin-top: 2rem;
+}
+
+
+
+@media (max-width: 768px){
+    .news-of_world{
+        display: block;
+    }
+    .Phasellus{
+        display: block;
+    }
+    .text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .box-of_Container{
+        display: block;
+        width: 100%;
+    }
+    .story{
+        width: 100%;
+    }
+    .worls-news_image h2{
+        font-size: 25px;
+    }
+    .worls-news_image p{
+        font-size: 15px;
+    }
+    .box{
+        width: 100%;
+    }
+    .house{
+        display: none;
+    }
+
+    .arrow-left{
+        display: flex;
+    }
+}

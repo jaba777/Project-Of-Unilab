@@ -496,6 +496,11 @@ ul{
 
     .footer{
         padding: 1rem 1.5rem;
+        display: none;
+    }
+
+    .burger-menu footer{
+        display: block;
     }
 
     .footer-box1{
