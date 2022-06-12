@@ -23,6 +23,10 @@
 }
 .header span{
     display: none;
+    position: absolute;
+    top: 18px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 h1{
     color: red;
@@ -431,13 +435,11 @@ ul{
 @media (max-width: 375px){
     .header{
         display: block;
+
     }
     .header span{
         display: block;
-        position: absolute;
-        top: 18px;
-        cursor: pointer;
-        transition: 0.5s;
+        z-index: 1234;
     }
     .header span:hover{
         transform: rotate(90deg);
@@ -537,7 +539,7 @@ ul{
     .burger-icons ul li{
         display: flex;
         align-items: center;
-        margin-top: 3rem;
+        margin-bottom: 1rem;
     }
     .burger-icons ul li a{
         list-style: none;
