@@ -158,6 +158,37 @@ hr{
     margin-top: 0.8rem;
 }
 
+.mountains{
+    width: 80%;
+    height: 30rem;
+    margin: 2rem auto;
+    background-image: url('../Image/mountain-picture.jpg');
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mountains h2{
+    font-size: 60px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 4rem;
+}
+
+.mountains a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #FA6980;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+}
+
 .trending-section{
     width: 80%;
     max-width: 95%;
@@ -438,6 +469,38 @@ ul{
     }
 }
 
+
+@media (max-width: 548px){
+    .mountains{
+        width: 100%;
+        height: 30rem;
+        margin: 2rem auto;
+        background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+    }
+    
+    .mountains h2{
+        font-size: 30px;
+        color: rgb(44, 44, 44);
+        margin-bottom: 4rem;
+    }
+    
+    .mountains a{
+        color: #fff;
+        text-decoration: none;
+        background-color: #FA6980;
+        font-size: 10px;
+        font-family: sans-serif;
+        padding: 0.8rem 1.5rem;
+        border-radius: 5px;
+    }
+    
+}
+
+
 /*dawerilia Samsung Galaxy S8+ stvis*/
 
 @media (max-width: 375px){
@@ -573,3 +636,4 @@ ul{
         margin-right: 15px;
     }
 }
+
