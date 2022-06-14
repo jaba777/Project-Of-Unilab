@@ -127,3 +127,35 @@ const rightHandlerSlider=()=>{
 
 rightIconSlider.addEventListener('click',rightSlider);
 leftIconSlider.addEventListener('click',rightHandlerSlider);
+
+const clickSection=document.querySelector('.click-section');
+const ClickContainer=document.querySelector('.click_container');
+let num=0;
+
+const slideBtn=document.querySelectorAll('.slide-btn').forEach((item,index)=>{
+    item.addEventListener('click',()=>{
+        num=index;
+        clickSection.classList.add('active');
+
+        fetch("https://jsonplaceholder.typicode.com/posts")
+        .then(item=>item.json())
+        .then(date=>{
+            ClickContainer.innerHTML=`
+            <div class="click-img">
+            <img src=${mountainNames[num].img} alt=${date[num].title}>
+          </div>
+                
+          <div class="click-box">
+            <h1>${date[num].title}</h1>
+            <p>${date[num].body}</p>
+          </div>
+        `
+        })
+        
+    })
+})
+
+const deleteX=document.querySelector('.delete-x');
+deleteX.addEventListener('click',()=>{
+    clickSection.classList.remove('active');
+});
