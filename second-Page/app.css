@@ -209,7 +209,38 @@ form input{
     margin-top: 2rem;
 }
 
+.section-of_numbers{
+    width: 80%;
+    margin: 2rem auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#text{
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+#numbers{
+    color: #ccc;
+}
+
+#numbers span{
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#first-number{
+    border-bottom: 2px solid #FA6980;
+}
+
+ #first-number,#last{
+    color: #000;
+    cursor: pointer;
+}
 
 @media (max-width: 768px){
     .news-of_world{
@@ -220,6 +251,10 @@ form input{
     }
     .text{
         width: 100%;
+    }
+
+    .section-of_numbers{
+        display: flex;
     }
 }
 

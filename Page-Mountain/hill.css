@@ -191,10 +191,13 @@
 }
 
 
-@media(max-width: 400px){
+@media(max-width: 480px){
     .click-img{
         width: 200px;
         height: 100px;
+    }
+    .slide-Container{
+        width: 700%;
     }
     .click-img img{
         width: 100%;
